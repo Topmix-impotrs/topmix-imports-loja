@@ -1,21 +1,124 @@
-MIT License
+MIT License                                         
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Topmix Imports</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #004aad; /* azul */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .produto {
+      border: 1px solid #ddd;
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .produto img {
+      max-width: 150px;
+      border-radius: 8px;
+    }
+    .produto-info {
+      flex-grow: 1;
+    }
+    footer {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
 
-Copyright (c) 2025 Topmix-impotrs
+<header>
+  <h1>Topmix Imports</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+    <a href="#sobre">Sobre Nós</a>
+  </nav>
+</header>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+<main>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  <section id="home">
+    <h2>Bem-vindo à Topmix Imports!</h2>
+    <p>Os melhores importados com preço incrível. Confira nossos produtos exclusivos.</p>
+  </section>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  <section id="produtos">
+    <h2>Produtos</h2>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/150" alt="Produto 1" />
+      <div class="produto-info">
+        <h3>Fone Bluetooth XYZ</h3>
+        <p>Fone de ouvido sem fio com alta qualidade de som.</p>
+        <p><strong>R$ 89,90</strong></p>
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/150" alt="Produto 2" />
+      <div class="produto-info">
+        <h3>Carregador Portátil 10000mAh</h3>
+        <p>Power bank compacto e eficiente para seu celular.</p>
+        <p><strong>R$ 59,90</strong></p>
+      </div>
+    </div>
+
+    <!-- Pode adicionar mais produtos aqui -->
+
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: <a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a></p>
+    <p>Email: contato@topmiximports.com</p>
+    <p>Siga a gente no Instagram: <a href="https://instagram.com/topmiximports" target="_blank">@topmiximports</a></p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Topmix Imports traz para você os melhores produtos importados, com qualidade e preço acessível. Nosso compromisso é oferecer uma ótima experiência de compra para nossos clientes.</p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Topmix Imports - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
